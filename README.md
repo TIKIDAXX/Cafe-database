@@ -198,7 +198,7 @@ DELIMITER ;
 
 **BEFORE INSERT ON detalle_venta**
 El trigger se ejecuta antes de insertar cada línea del detalle de venta. Así podemos validar y evitar que se guarde si algo anda mal.
-
+  
 **FOR EACH ROW**
 Se ejecuta una vez por cada producto que se está vendiendo en la factura.
 
